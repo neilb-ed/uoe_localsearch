@@ -2,6 +2,7 @@ name = Local Search version of The University of Edinburgh
 description = Local search sub-theme of the main uoe theme
 core = 7.x
 base theme = uoe
+version = 1.1
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Settings
