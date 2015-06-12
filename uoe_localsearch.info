@@ -1,0 +1,28 @@
+name = Local Search version of The University of Edinburgh
+description = Local search sub-theme of the main uoe theme
+core = 7.x
+base theme = uoe
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[searchbox]      = 'Search Box'
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;; - apparently you need to declare at least one, to inherit the rest
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/localsearch.css
+
