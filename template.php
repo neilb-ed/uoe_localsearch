@@ -19,11 +19,12 @@ function uoe_localsearch_preprocess_html(&$variables) {
   //  error_log( 'uoe localsearch preprocess_html foot -1' );
 }
 
+
 // Try to override search module search form
 // https://api.drupal.org/api/drupal/modules%21system%21system.api.php/function/hook_form_FORM_ID_alter/7
 
 function uoe_localsearch_form_search_box_alter(&$form, &$form_state, $form_id) {
-  // error_log( 'uoe localsearch alter search form - uoe' );
+  // Not using this for now
   //  $form['actions']['submit']['#value'] = 'NBS';
   //  $form['submit'] = array( '#type' => 'submit', '#value' => 'Submit'  );
   // unset( $form['search_block_form'] );
@@ -74,8 +75,8 @@ function uoe_localsearch_bootstrap_search_form_wrapper($variables) {
     $output .= '</span>';
     $output .= '</div>';
   }
-  // error_log( 'uoe localsearch search_form_wrapper' );
-  // dsm($variables);  // pretty print array using Krumo to messages
+  //  error_log( 'uoe localsearch search_form_wrapper' );
+  //  dsm($variables);  // pretty print array using Krumo to messages
   return $output;
 }
 

@@ -174,7 +174,10 @@
 
 <?php if (!empty($page_home_hero)): ?>
   <div class="jumbotron home-hero" >
-    <?php print $page_home_hero['image']; ?>
+    <?php 
+     if( !theme_get_setting('uoe_localsearch_hidebanner')) {
+       print $page_home_hero['image'];
+     } ?>
     <div class="container titleblock" >
       <?php if (!empty($page_home_hero['subtitle'])): ?>
         <h3><?php print $page_home_hero['subtitle']; ?></h3>

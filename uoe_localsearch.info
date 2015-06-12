@@ -4,6 +4,13 @@ core = 7.x
 base theme = uoe
 
 ;;;;;;;;;;;;;;;;;;;;;
+;; Settings
+;;;;;;;;;;;;;;;;;;;;;
+
+settings[uoe_localsearch_hidebanner] = 0
+
+
+;;;;;;;;;;;;;;;;;;;;;
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
