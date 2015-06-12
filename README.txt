@@ -1,5 +1,7 @@
 uoe_localsearch
 
+Version 1.0:
+
 First things first, this is my first attempt at any Drupal coding, so
 if I've got things wrong, or there's better ways to do things, eg like
 how to call overridden functions, then please let me know.
@@ -19,10 +21,13 @@ As well as installing this theme, and making it the default, you need to:
   * From the /admin/structure/block page, add "Search form" to the new
     "Search Box" region.
 
-Update 1: There is now a theme setting checkbox to hide the large
-banner image from the page header.
-
 If you don't do that last part, then the default search behaviour remains.
+
+
+Version 1.1
+
+There is now a theme setting checkbox to hide the large banner image
+from the page header.
 
 That's it.
 neilb @ inf.ed.ac.uk
